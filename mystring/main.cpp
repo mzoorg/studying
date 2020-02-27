@@ -1,6 +1,6 @@
 #include <iostream>
 //#include <string>
-#define DEBUG
+//#define DEBUG
 using namespace std;
 
 class mystring
@@ -167,6 +167,10 @@ int main()
 	mystring result;
 	result = str1 + str2;
 	result.print();
+	
+	str2[3] = 'G';
+	str2.print();
+
 
 
 	return 0;
